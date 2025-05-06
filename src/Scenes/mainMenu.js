@@ -1,4 +1,4 @@
-class MainMenu extends Phaser.Scene {
+class mainMenu extends Phaser.Scene {
     constructor() {
       super('MainMenu');
     }
@@ -29,6 +29,6 @@ class MainMenu extends Phaser.Scene {
   }
   
   // expose globally
-  window.MainMenu = MainMenu;
+  window.mainMenu = mainMenu;
 
   

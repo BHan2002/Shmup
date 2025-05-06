@@ -1,4 +1,4 @@
-class GameOver extends Phaser.Scene {
+class gameOver extends Phaser.Scene {
     constructor() {
       super('GameOver');
     }
@@ -46,5 +46,5 @@ class GameOver extends Phaser.Scene {
   }
   
   // expose globally
-  window.GameOver = GameOver;
+  window.gameOver = gameOver;
   

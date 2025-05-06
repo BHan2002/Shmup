@@ -5,7 +5,7 @@ let config = {
     width: 480,
     height: 640,
     render: { pixelArt: true },
-    scene: [ MainMenu, oneD, GameOver ]
+    scene: [ mainMenu, oneD, gameOver ]
   };
   
   const game = new Phaser.Game(config);
