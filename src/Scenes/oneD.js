@@ -27,7 +27,7 @@ class oneD extends Phaser.Scene {
         this.load.image("lineClouds", "3.png");
         this.load.image("frontClouds", "4.png");
 
-        this.load.setPath("./assets/Ships");
+        this.load.setPath("assets/Ships");
         // Load Enemies
         this.load.image("scout", "ship_0002.png")
         this.load.image("fighter", "ship_0003.png")
